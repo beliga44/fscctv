@@ -364,7 +364,7 @@ footer{
 	.type-detail > .item{
 		flex-direction: column;
 	}
-	.box-fs,header{
+	.box-fs, header{
 		height: auto;
 	}
 	.type-detail{
@@ -392,8 +392,8 @@ footer{
 		font-size: 10px;
 	}
 	.logo > img{
-		width: 72px;
-		height: auto;
+		width: auto !important;
+		height: 30px !important;
 	}
 	.type-detail > .item > .image{ width: 100%; }
 	.type-detail > .item > .image > img{
