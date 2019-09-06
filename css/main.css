@@ -121,8 +121,9 @@ header{
 }
 h1.name{
 	letter-spacing: 10px;
-	font-size: 36px;
+	font-size: 70px;
 	margin: 16px;
+	font-weight: 700;
 }
 .header-content > .content > p{
 	line-height: 36px;
