@@ -337,3 +337,61 @@ footer{
 	-webkit-animation: bounceInUp 2.0s;
   			animation: bounceInUp 2.0s;
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  	.header-content > .image > img {
+	    height: 100%;
+	    object-fit: cover;
+	}
+	h1.name{ font-size: 16px !important; margin: 10px; letter-spacing: 2px; }
+	.header-content > .content > p { font-size: 11px; line-height: 20px; margin: 5px;}
+	.button{ font-size: 10px; } 
+	.main-container > .type-container > .item{ padding: 0; }
+	.main-container > .type-container > .item > h2 {
+		font-size: 10px !important;
+		margin: 0;
+		text-align: center;
+	}
+	.main-container > .type-container > .item{
+		padding: 10px;
+		height: auto;
+	}
+	.type-detail > .item > .content > p{
+		font-size: 10px;
+		line-height: 20px;
+	}
+	.type-detail > .item{
+		flex-direction: column;
+	}
+	.box-fs,header{
+		height: auto;
+	}
+	.type-detail{
+		padding: 24px 0;
+	}
+	.header-content > .content{
+		padding: 24px 0	;	
+	}
+	.main-container > .type-container{
+		height: auto;
+	}
+	.footer-container{
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer-container > .box{
+		width: 100% !important;
+		flex-direction: column;
+		text-align: center;
+	}
+	.footer-container > .box > .image > img{
+		width: 80%;
+	}
+	.top-bar > .nav > a.item{
+		font-size: 10px;
+	}
+	.logo > img{
+		width: 72px;
+	}
+}
