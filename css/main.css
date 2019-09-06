@@ -393,5 +393,13 @@ footer{
 	}
 	.logo > img{
 		width: 72px;
+		height: auto;
+	}
+	.type-detail > .item > .image{ width: 100%; }
+	.type-detail > .item > .image > img{
+		width: 160px !important;
+	}
+	.type-detail > .item > .content{
+		width: 100%;
 	}
 }
