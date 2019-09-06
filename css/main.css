@@ -293,6 +293,10 @@ footer{
 .button-secondary:active{
 	background-color: #e6ae26;
 }
+.image h1{
+	color: white;
+	margin: 0;
+}
 
 @-webkit-keyframes bounceInUp {
 	0% {
