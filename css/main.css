@@ -242,10 +242,10 @@ footer{
 	width: 30%;
 }
 .footer-container > .box:nth-child(2){
-	width: 30%;
+	width: 20%;
 }
 .footer-container > .box:nth-child(3){
-	width: 30%;
+	width: 40%;
 }
 .footer-container > .box:nth-child(4){
 	width: 10%;
@@ -296,6 +296,9 @@ footer{
 .image h1{
 	color: white;
 	margin: 0;
+}
+.logo h1{
+	font-size: 23px;
 }
 
 @-webkit-keyframes bounceInUp {
@@ -356,7 +359,11 @@ footer{
 	    height: 100%;
 	    object-fit: cover;
 	}
-	h1.name{ font-size: 16px !important; margin: 10px; letter-spacing: 2px; }
+	h1.name{ 
+		font-size: 30px !important; 
+		margin: 10px; 
+		letter-spacing: 2px; 
+	}
 	.header-content > .content > p { font-size: 11px; line-height: 20px; margin: 5px;}
 	.button{ font-size: 10px; } 
 	.main-container > .type-container > .item{ padding: 0; }
